@@ -1,0 +1,86 @@
+/*
+
+ * HFM.NET - Bit-tech Style Sheet
+
+ * Created By Chris Bishop (Votick)
+
+ */
+
+
+
+body{
+background: #000000 url(http://fold.as50391.net/HFM/body-20110615.jpg) no-repeat 50% 0;
+color: white;
+font-family: "Myriad Pro", sans-serif;
+font-size: 11px;
+}
+.bit-tech_logo {
+margin-bottom: -16px;
+}
+.menu_tab {
+position: absolute; right: 0; bottom: 0;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+background: #363c47;
+padding-top: 10px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 5px;
+margin-bottom: -20px;
+}
+.stats_tab {
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+background: #363c47;
+padding-top: 10px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 10px;
+margin-top: -20px;
+}
+.Overview {
+padding: 5px 5px 5px 5px;
+margin: 2px 2px 2px 2px;
+border-collapse: collapse;
+font-size: 10px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+background: #363c47;
+margin-bottom: 16px;
+letter-spacing:1px;
+}
+.content {
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+background: #363c47;
+padding: 16px 25px 16px 16px;
+width: 70%;
+margin: auto;
+}
+.container-fluid {
+width: 70%;
+margin: auto;	
+}
+tr.table-heading {
+color: #FFFFFF;
+}
+.table td {
+border: none;
+color: #FFFFFF;
+}
+.table thead th {
+border: none;
+}
+.row {
+border: 1px #FFFFFF;
+}
+a {
+color: #FFFFFF;
+}
+a:hover {
+color: #FFFFFF;
+}
