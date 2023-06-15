@@ -77,8 +77,15 @@
         <xsl:attribute name="bgcolor">
           <xsl:value-of select="StatusColor"/>
         </xsl:attribute>
-		<xsl:value-of select="PercentComplete"/>%
+      <span>
+        <xsl:choose>
+          <xsl:when test="not(StatusColor='Green')">
+            <xsl:attribute name="style">color:#000000;</xsl:attribute>
+          </xsl:when>
+        </xsl:choose>
+		<xsl:value-of select="PercentComplete"/>%</span>
       </td>
+
       <td class="table-column">
         <xsl:choose>
           <xsl:when test="UserIdIsDuplicate='true'">
