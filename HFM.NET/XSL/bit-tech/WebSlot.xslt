@@ -16,23 +16,14 @@
         <link rel="stylesheet" href="$CSSFILE" />
       </head>
       <body>
-        <div class="container-fluid">
+         <div class="container-fluid">
           <div class="row my-3">
             <div class="col">
-              <span class="h2">
-                <xsl:value-of select="SlotData/Name"/>
-              </span>
-              <xsl:text> </xsl:text>
-              <a href="index.html">
-                <span style="white-space: nowrap;">Overview Page</span>
-              </a>
-              <xsl:text disable-output-escaping="yes">&amp;nbsp;/ </xsl:text>
-              <a href="summary.html">
-                <span style="white-space: nowrap;">Summary Page</span>
-              </a>
+              <div class="bit-tech_logo"><img src="https://www.bit-tech.net/static/public/image/bit_tech_logo_white.png" /> <span class="menu_tab"><a href="summary.html">Summary Page</a></span></div>
             </div>
           </div>
         </div>
+		<div class="content">
         <div>
           <table class="table w-auto">
             <tr>
@@ -93,12 +84,10 @@
             </tr>
           </table>
         </div>
-        <div class="container-fluid">
-          <div class="row my-3">
-            <div class="col">
-              <span class="h4">
-                Log File
-              </span>
+		</div>
+		<br /><br />
+		<div class="content">
+            <h4>Log File</h4>
               <xsl:choose>
                 <xsl:when test="LogFileAvailable='true' and LogFileName!=''">
                   <a>
@@ -108,9 +97,6 @@
                   </a>
                 </xsl:when>
               </xsl:choose>
-            </div>
-          </div>
-        </div>
         <table class="table w-auto">
           <tr>
             <td class="table-column">
@@ -121,18 +107,15 @@
             </td>
           </tr>
         </table>
-        <div class="container-fluid">
-          <div class="row my-3">
-            <div class="col">
-              <span class="h4">
-                Project
-              </span>
-            </div>
-          </div>
-        </div>
+		</div>
+		<br /><br />
+		<div class="content">
+        <h4>Project</h4>
+		<br />
         <table class="table w-auto">
           <xsl:apply-templates select="SlotData/Protein" />
         </table>
+		</div>
         <div class="container-fluid">
           <div class="row my-3">
             <div class="col">

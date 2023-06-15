@@ -65,6 +65,9 @@ margin: auto;
 width: 70%;
 margin: auto;	
 }
+.table {
+    color: #FFFFFF;
+}
 tr.table-heading {
 color: #FFFFFF;
 }

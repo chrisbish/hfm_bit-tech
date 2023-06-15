@@ -18,17 +18,14 @@
       <body>
         <xsl:variable name="PPW" select="SlotTotals/PPD * 7"/>
         <xsl:variable name="UPW" select="SlotTotals/UPD * 7"/>
-        <div class="container-fluid">
+          <div class="container-fluid">
           <div class="row my-3">
             <div class="col">
-              <span class="h2">Overview</span>
-              <xsl:text> </xsl:text>
-              <a href="summary.html">
-                <span style="white-space: nowrap;">Summary Page</span>
-              </a>
+              <div class="bit-tech_logo"><img src="https://www.bit-tech.net/static/public/image/bit_tech_logo_white.png" /> <span class="menu_tab"><a href="summary.html">Summary Page</a></span></div>
             </div>
           </div>
         </div>
+		<div class="content">
         <div>
           <table class="table w-auto">
             <tbody>
@@ -147,9 +144,10 @@
             </tbody>
           </table>
         </div>
+		</div>
         <div class="container-fluid">
-          <div class="row my-3">
-            <div class="col">
+          <div class="row justify-content-center my-3">
+            <div class="col-auto">
               Page rendered by <a href="https://github.com/harlam357/hfm-net">HFM.NET</a><xsl:text> </xsl:text><xsl:value-of select="HfmVersion"/> on <xsl:call-template name="FormatDate">
                 <xsl:with-param name="dateTime" select="UpdateDateTime" />
               </xsl:call-template>
