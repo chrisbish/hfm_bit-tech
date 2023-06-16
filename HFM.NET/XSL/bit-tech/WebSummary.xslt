@@ -23,7 +23,6 @@
 			  <div class="menu_tab">
 			  <ul>
 			  <li><a href="index.html">Overview Page</a></li>
-			  <li><a href="https://folding.extremeoverclocking.com/user_summary.php?s=&u=345661" target="_blank">EOC Stats</a></li>
 			  </ul>
 			  </div>
 			  </div>
