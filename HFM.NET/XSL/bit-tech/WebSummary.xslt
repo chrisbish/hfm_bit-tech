@@ -19,7 +19,14 @@
         <div class="container-fluid">
           <div class="row my-3">
             <div class="col">
-              <div class="bit-tech_logo"><img src="https://raw.githubusercontent.com/chrisbish/hfm_bit-tech/main/bit_tech_logo_white.png" /> <span class="menu_tab"><a href="index.html">Overview Page</a></span></div>
+              <div class="bit-tech_logo"><img src="https://raw.githubusercontent.com/chrisbish/hfm_bit-tech/main/bit_tech_logo_white.png" />
+			  <div class="menu_tab">
+			  <ul>
+			  <li><a href="index.html">Overview Page</a></li>
+			  <li><a href="https://folding.extremeoverclocking.com/user_summary.php?s=&u=345661" target="_blank">EOC Stats</a></li>
+			  </ul>
+			  </div>
+			  </div>
             </div>
           </div>
         </div>
@@ -57,9 +64,9 @@
           </div>
           <div class="row justify-content-center my-3">
             <div class="col-auto">
-              Page rendered by <a href="https://github.com/harlam357/hfm-net">HFM.NET</a><xsl:text> </xsl:text><xsl:value-of select="HfmVersion"/> on <xsl:call-template name="FormatDate">
+              Page rendered by <a href="https://github.com/harlam357/hfm-net" target="_blank">HFM.NET</a><xsl:text> </xsl:text><xsl:value-of select="HfmVersion"/> on <xsl:call-template name="FormatDate">
                 <xsl:with-param name="dateTime" select="UpdateDateTime" />
-              </xsl:call-template>
+              </xsl:call-template> - Theme by <a href="https://github.com/chrisbish/hfm_bit-tech" target="_blank">Votick</a>
             </div>
           </div>
         </div>
@@ -83,7 +90,7 @@
             <xsl:attribute name="style">color:#000000;</xsl:attribute>
           </xsl:when>
         </xsl:choose>
-		<xsl:value-of select="PercentComplete"/>%</span>
+		<center><xsl:value-of select="PercentComplete"/>%</center></span>
       </td>
 
       <td class="table-column">

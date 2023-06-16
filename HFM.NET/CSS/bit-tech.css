@@ -19,15 +19,11 @@ margin-bottom: -16px;
 }
 .menu_tab {
 position: absolute; right: 0; bottom: 0;
--moz-border-radius: 5px;
--webkit-border-radius: 5px;
-border-radius: 5px;
-background: #363c47;
 padding-top: 10px;
 padding-left: 20px;
 padding-right: 20px;
 padding-bottom: 5px;
-margin-bottom: -20px;
+margin-bottom: -25px;
 }
 .stats_tab {
 -moz-border-radius: 5px;
@@ -38,7 +34,8 @@ padding-top: 10px;
 padding-left: 20px;
 padding-right: 20px;
 padding-bottom: 10px;
-margin-top: -20px;
+margin-top: -24px;
+font-weight: bold;
 }
 .Overview {
 padding: 5px 5px 5px 5px;
@@ -75,6 +72,9 @@ color: #FFFFFF;
 border: none;
 color: #FFFFFF;
 }
+.table tr {
+border-bottom: 4px solid #363c47;
+}
 .table thead th {
 border: none;
 }
@@ -86,4 +86,38 @@ color: #FFFFFF;
 }
 a:hover {
 color: #FFFFFF;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: -5px;
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 14px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+padding-top: 8px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 8px;
+  text-decoration: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #363c47;
+}
+
+li a:hover {
+text-decoration: none;
+ background: #363c47 url(https://fold.as50391.net/HFM/client-background.png);
 }
